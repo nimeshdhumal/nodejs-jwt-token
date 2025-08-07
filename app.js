@@ -1,8 +1,6 @@
 require('dotenv').config();//To load the all env variables into app.js
 require('./config/db');//Checking the connection with DB
 const express = require('express');
-// const sequelize  = require('./config/db');
-// const User = require('./models/User');
 const authRoutes = require('./routes/authRoutes');
 const app = express();
 

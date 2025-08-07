@@ -41,7 +41,7 @@ const getProfile = (req, res) => {
     res.status(200).json({
         id: req.user.id,
         role: req.user.role,
-        message: "Welcome to yout profile!"
+        message: "Welcome to your profile!"
     });
 };
 
